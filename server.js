@@ -23,7 +23,7 @@ app.get('/:date', (req, res)  => {
         date = moment(param, 'MMMM DD, YYYY');
     }
     if(!date.isValid()){
-        return res.status(404).json({error: 'Invalid date'});
+        return res.status(400).json({error: 'Invalid date'});
     }
     res.json({
         unix: date.format('x'),
