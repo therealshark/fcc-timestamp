@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/therealshark/fcc-timestamp/issues"
   },
-  "homepage": "https://github.com/therealshark/fcc-timestamp#readme"
+  "homepage": "https://github.com/therealshark/fcc-timestamp#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.12.0"
+  }
 }
